@@ -1,5 +1,5 @@
 import comp from "C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/viteAsset.html.vue"
-const data = JSON.parse("{\"path\":\"/viteAsset.html\",\"title\":\"asset handle\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"引用静态资源\",\"slug\":\"引用静态资源\",\"link\":\"#引用静态资源\",\"children\":[]},{\"level\":2,\"title\":\"public目录\",\"slug\":\"public目录\",\"link\":\"#public目录\",\"children\":[]},{\"level\":2,\"title\":\"根url\",\"slug\":\"根url\",\"link\":\"#根url\",\"children\":[]}],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"viteAsset.md\"}")
+const data = JSON.parse("{\"path\":\"/viteAsset.html\",\"title\":\"asset handle\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"引用静态资源\",\"slug\":\"引用静态资源\",\"link\":\"#引用静态资源\",\"children\":[]},{\"level\":2,\"title\":\"public目录\",\"slug\":\"public目录\",\"link\":\"#public目录\",\"children\":[]},{\"level\":2,\"title\":\"根url\",\"slug\":\"根url\",\"link\":\"#根url\",\"children\":[]}],\"git\":{\"updatedTime\":1707465924000,\"contributors\":[{\"name\":\"lulalulali\",\"email\":\"117624486+lulalulali@users.noreply.github.com\",\"commits\":1}]},\"filePathRelative\":\"viteAsset.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

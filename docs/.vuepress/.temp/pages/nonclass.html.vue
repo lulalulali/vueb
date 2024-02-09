@@ -53,30 +53,6 @@
 </li>
 </ul>
 <p>具体的步骤和命令会根据您的项目类型和需求而有所不同。如果您有特定的问题或需要详细的指导，请提供更多信息。</p>
-<h2 id="react" tabindex="-1"><a class="header-anchor" href="#react"><span>react</span></a></h2>
-<p>React 应用程序是使用 React 框架构建的 Web 应用程序。React 是由 Facebook 开发的一种用于构建用户界面的 JavaScript 库。React 应用程序采用组件化的方式构建用户界面，其中 UI 被分解成多个独立、可重用的组件。</p>
-<p>关键概念和特点包括：</p>
-<ol>
-<li>
-<p><strong>组件化开发</strong>：React 应用程序使用组件来构建用户界面。每个组件都是一个独立的模块，可以包含自己的状态（state）和行为（methods）。</p>
-</li>
-<li>
-<p><strong>虚拟 DOM</strong>：React 使用虚拟 DOM（Virtual DOM）来提高性能。虚拟 DOM 是一个内存中的表示实际 DOM 的对象，React 通过对比虚拟 DOM 的变化来最小化实际 DOM 操作，提高页面渲染效率。</p>
-</li>
-<li>
-<p><strong>单向数据流</strong>：React 遵循单向数据流的原则，数据从父组件传递到子组件，通过 props 进行传递。子组件通过触发事件来通知父组件进行状态更新。</p>
-</li>
-<li>
-<p><strong>生命周期方法</strong>：React 组件有生命周期方法，允许开发者在组件的不同阶段执行特定的操作，如组件加载、更新和卸载。</p>
-</li>
-<li>
-<p><strong>JSX 语法</strong>：React 使用 JSX 语法（JavaScript XML），一种将 HTML 结构嵌套在 JavaScript 代码中的语法糖。JSX 提供了更直观、更声明式的方式来描述用户界面。</p>
-</li>
-<li>
-<p><strong>状态管理</strong>：React 应用程序通常使用状态（state）来管理组件的数据。状态是可变的，当状态发生变化时，React 会重新渲染相关的组件。</p>
-</li>
-</ol>
-<p>React 应用程序可以是单页面应用（SPA）或多页面应用，具体取决于应用的需求。SPA 是指在加载应用时只加载一个 HTML 页面，通过 AJAX 或 WebSocket 等技术动态更新页面内容，而不是通过传统的页面刷新方式。React 被广泛用于构建现代、交互式的用户界面。</p>
 <h2 id="typescript-和-javascript" tabindex="-1"><a class="header-anchor" href="#typescript-和-javascript"><span>TypeScript 和 JavaScript</span></a></h2>
 <p>TypeScript 和 JavaScript 都是编程语言，它们有一些相同之处，但也有一些重要的区别。</p>
 <p><strong>JavaScript:</strong></p>
@@ -354,70 +330,10 @@ console<span class="token punctuation">.</span><span class="token function">log<
 <span class="token keyword">export</span> <span class="token keyword">default</span> MyForm<span class="token punctuation">;</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在这个例子中，<code v-pre>&lt;form&gt;</code> 元素通过 <code v-pre>onSubmit</code> 属性绑定了一个处理函数，该函数在表单提交时被调用。这个函数通常包含了处理表单数据、发送请求等逻辑。</p>
 <h2 id="标记语法-md格式-ts-mts-ssg" tabindex="-1"><a class="header-anchor" href="#标记语法-md格式-ts-mts-ssg"><span>标记语法 md格式 ts mts ssg</span></a></h2>
-<h2 id="双-三冒号标记语法" tabindex="-1"><a class="header-anchor" href="#双-三冒号标记语法"><span>双/三冒号标记语法</span></a></h2>
-<p>这样的语法看起来像是来自于一种标记语言，通常用于文档、博客或特定的内容管理系统中，比如用于静态网站生成器（如 VuePress、Docusaurus 等）或 Markdown 的扩展功能。</p>
-<p>这种语法使用了类似于双冒号和三个冒号的结构，以指示不同类型的提示或警告。在这个例子中：</p>
-<ul>
-<li><code v-pre>:::tip</code> 和 <code v-pre>:::</code> 之间的部分可能代表一个提示框或建议，提供了一些关于使用特定功能的提示或建议。</li>
-<li>同样，<code v-pre>:::danger</code> 和 <code v-pre>:::</code> 之间的部分可能表示一个警告框，提醒用户某个行为或操作可能带来的危险或风险。</li>
-</ul>
-<p>这样的语句通常用于标记文档的不同部分，以便在渲染时以特定的样式或格式进行显示。例如，在静态网站生成器中，这种语法可能会将内容渲染成带有特定样式的提示框，让读者能够更容易地识别和理解文档中的提示、警告或重要信息。</p>
-<p>在文件中使用这种语法通常是在标记文档的特定部分，以便在生成静态页面或文档时能够呈现为带有样式或特定样式的提示框，增强文档的可读性和易用性。</p>
-<h2 id="md中多种格式和标记来" tabindex="-1"><a class="header-anchor" href="#md中多种格式和标记来"><span>md中多种格式和标记来</span></a></h2>
-<p>一些常见的格式包括：</p>
-<ol>
-<li>
-<p><strong>标题</strong>：</p>
-<div class="language-markdown line-numbers-mode" data-ext="md" data-title="md"><pre v-pre class="language-markdown"><code><span class="token title important"><span class="token punctuation">#</span> 标题1</span>
-<span class="token title important"><span class="token punctuation">##</span> 标题2</span>
-<span class="token title important"><span class="token punctuation">###</span> 标题3</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p><strong>粗体和斜体</strong>：</p>
-<div class="language-markdown line-numbers-mode" data-ext="md" data-title="md"><pre v-pre class="language-markdown"><code><span class="token bold"><span class="token punctuation">**</span><span class="token content">粗体文字</span><span class="token punctuation">**</span></span>
-<span class="token italic"><span class="token punctuation">*</span><span class="token content">斜体文字</span><span class="token punctuation">*</span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p><strong>列表</strong>：</p>
-<div class="language-markdown line-numbers-mode" data-ext="md" data-title="md"><pre v-pre class="language-markdown"><code><span class="token list punctuation">-</span> 无序列表项1
-<span class="token list punctuation">-</span> 无序列表项2
-<span class="token list punctuation">1.</span> 有序列表项1
-<span class="token list punctuation">2.</span> 有序列表项2
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p><strong>链接</strong>：</p>
-<div class="language-markdown line-numbers-mode" data-ext="md" data-title="md"><pre v-pre class="language-markdown"><code><span class="token url">[<span class="token content">链接文本</span>](<span class="token url">URL</span>)</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
-<li>
-<p><strong>图片</strong>：</p>
-<div class="language-markdown line-numbers-mode" data-ext="md" data-title="md"><pre v-pre class="language-markdown"><code><span class="token url"><span class="token operator">!</span>[<span class="token content">替代文本</span>](<span class="token url">图片链接</span>)</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
-<li>
-<p><strong>引用</strong>：</p>
-<div class="language-markdown line-numbers-mode" data-ext="md" data-title="md"><pre v-pre class="language-markdown"><code><span class="token blockquote punctuation">></span> 引用的文本
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
-<li>
-<p><strong>水平线</strong>：</p>
-<div class="language-markdown line-numbers-mode" data-ext="md" data-title="md"><pre v-pre class="language-markdown"><code><span class="token hr punctuation">---</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
-<li>
-<p><strong>代码块</strong>：</p>
-<div class="language-markdown line-numbers-mode" data-ext="md" data-title="md"><pre v-pre class="language-markdown"><code>```语言
-代码内容
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div></li>
-<li>
-<p><strong>表格</strong>：</p>
-<div class="language-markdown line-numbers-mode" data-ext="md" data-title="md"><pre v-pre class="language-markdown"><code><span class="token table"><span class="token table-header-row"><span class="token punctuation">|</span><span class="token table-header important"> 表头1 </span><span class="token punctuation">|</span><span class="token table-header important"> 表头2 </span><span class="token punctuation">|</span>
-</span><span class="token table-line"><span class="token punctuation">|</span> <span class="token punctuation">-----</span> <span class="token punctuation">|</span> <span class="token punctuation">-----</span> <span class="token punctuation">|</span>
-</span><span class="token table-data-rows"><span class="token punctuation">|</span><span class="token table-data"> 单元格1 </span><span class="token punctuation">|</span><span class="token table-data"> 单元格2 </span><span class="token punctuation">|</span>
-</span></span></code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
-</ol>
-<p>这些是 Markdown 常用的格式，Markdown 还有很多其他格式和标记，可以根据需求来使用。Markdown 的简单语法使得写作更加直观和便捷，适用于各种场景，如撰写文档、博客、评论等。</p>
 <h2 id="数字改大不动了是为什么" tabindex="-1"><a class="header-anchor" href="#数字改大不动了是为什么"><span>数字改大不动了是为什么</span></a></h2>
 <p>！<a href="./docusaurus.png">动不了</a>.</p>
-<h2 id="github网站本身也是个项目" tabindex="-1"><a class="header-anchor" href="#github网站本身也是个项目"><span>GitHub网站本身也是个项目</span></a></h2>
 <h2 id="template是什么" tabindex="-1"><a class="header-anchor" href="#template是什么"><span>template是什么</span></a></h2>
-<p>是模板的意思  \英文输入法下enter键上一个键就是\</p>
+<p>是模板的意思</p>
 <h2 id="typescript" tabindex="-1"><a class="header-anchor" href="#typescript"><span>typescript</span></a></h2>
 <p>TypeScript 文件属于一种文本文件，其扩展名通常为 <code v-pre>.ts</code>。它们是用于编写 TypeScript 代码的文件。TypeScript 是 JavaScript 的超集，为 JavaScript 提供了静态类型检查和其他高级功能。在 TypeScript 文件中，你可以编写类型注解、定义接口、枚举、类等 TypeScript 特有的语法。</p>
 <p>TypeScript 文件包含的代码会被 TypeScript 编译器处理并转换为相应的 JavaScript 文件（<code v-pre>.js</code> 文件）。这些 JavaScript 文件可以在浏览器或者其他 JavaScript 运行环境中执行。在开发过程中，TypeScript 文件可以通过编译器进行类型检查和静态分析，帮助捕获潜在的错误并提供更好的代码提示和自动补全功能。</p>

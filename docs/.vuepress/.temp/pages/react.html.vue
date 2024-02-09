@@ -1,4 +1,28 @@
-<template><div><h1 id="设置react-环境" tabindex="-1"><a class="header-anchor" href="#设置react-环境"><span>设置React 环境</span></a></h1>
+<template><div><h1 id="react" tabindex="-1"><a class="header-anchor" href="#react"><span>react</span></a></h1>
+<p>React 应用程序是使用 React 框架构建的 Web 应用程序。React 是由 Facebook 开发的一种用于构建用户界面的 JavaScript 库。React 应用程序采用组件化的方式构建用户界面，其中 UI 被分解成多个独立、可重用的组件。</p>
+<p>关键概念和特点包括：</p>
+<ol>
+<li>
+<p><strong>组件化开发</strong>：React 应用程序使用组件来构建用户界面。每个组件都是一个独立的模块，可以包含自己的状态（state）和行为（methods）。</p>
+</li>
+<li>
+<p><strong>虚拟 DOM</strong>：React 使用虚拟 DOM（Virtual DOM）来提高性能。虚拟 DOM 是一个内存中的表示实际 DOM 的对象，React 通过对比虚拟 DOM 的变化来最小化实际 DOM 操作，提高页面渲染效率。</p>
+</li>
+<li>
+<p><strong>单向数据流</strong>：React 遵循单向数据流的原则，数据从父组件传递到子组件，通过 props 进行传递。子组件通过触发事件来通知父组件进行状态更新。</p>
+</li>
+<li>
+<p><strong>生命周期方法</strong>：React 组件有生命周期方法，允许开发者在组件的不同阶段执行特定的操作，如组件加载、更新和卸载。</p>
+</li>
+<li>
+<p><strong>JSX 语法</strong>：React 使用 JSX 语法（JavaScript XML），一种将 HTML 结构嵌套在 JavaScript 代码中的语法糖。JSX 提供了更直观、更声明式的方式来描述用户界面。</p>
+</li>
+<li>
+<p><strong>状态管理</strong>：React 应用程序通常使用状态（state）来管理组件的数据。状态是可变的，当状态发生变化时，React 会重新渲染相关的组件。</p>
+</li>
+</ol>
+<p>React 应用程序可以是单页面应用（SPA）或多页面应用，具体取决于应用的需求。SPA 是指在加载应用时只加载一个 HTML 页面，通过 AJAX 或 WebSocket 等技术动态更新页面内容，而不是通过传统的页面刷新方式。React 被广泛用于构建现代、交互式的用户界面。</p>
+<h2 id="设置react-环境" tabindex="-1"><a class="header-anchor" href="#设置react-环境"><span>设置React 环境</span></a></h2>
 <p>确保你的项目已经设置好了 React 环境，通常需要进行以下步骤：</p>
 <h2 id="步骤一检查项目依赖" tabindex="-1"><a class="header-anchor" href="#步骤一检查项目依赖"><span>步骤一检查项目依赖</span></a></h2>
 <ol>

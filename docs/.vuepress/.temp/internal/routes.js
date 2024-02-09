@@ -11,8 +11,7 @@ export const routes = Object.fromEntries([
   ["/nodejs.html", { loader: () => import(/* webpackChunkName: "v-15d8f990" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/nodejs.html.js"), meta: {"title":"node.js"} }],
   ["/nonclass.html", { loader: () => import(/* webpackChunkName: "v-124624b8" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/nonclass.html.js"), meta: {"title":"Nonclass"} }],
   ["/npm.html", { loader: () => import(/* webpackChunkName: "v-483a3278" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/npm.html.js"), meta: {"title":"npm"} }],
-  ["/react.html", { loader: () => import(/* webpackChunkName: "v-06b30f30" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/react.html.js"), meta: {"title":"设置React 环境"} }],
-  ["/", { loader: () => import(/* webpackChunkName: "v-4ec95bbd" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":""} }],
+  ["/react.html", { loader: () => import(/* webpackChunkName: "v-06b30f30" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/react.html.js"), meta: {"title":"react"} }],
   ["/task.html", { loader: () => import(/* webpackChunkName: "v-b3ad8184" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/task.html.js"), meta: {"title":"作业要求"} }],
   ["/viteApi.html", { loader: () => import(/* webpackChunkName: "v-5c4d630e" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/viteApi.html.js"), meta: {"title":"api"} }],
   ["/viteAsset.html", { loader: () => import(/* webpackChunkName: "v-0b26063a" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/viteAsset.html.js"), meta: {"title":"asset handle"} }],
@@ -27,6 +26,7 @@ export const routes = Object.fromEntries([
   ["/vue/vue.html", { loader: () => import(/* webpackChunkName: "v-8dc2971c" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/vue/vue.html.js"), meta: {"title":"vue"} }],
   ["/vue/vueMd.html", { loader: () => import(/* webpackChunkName: "v-4974a2db" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/vue/vueMd.html.js"), meta: {"title":"vue on md"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "v-8fe89ed2" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
+  ["/", { loader: () => import(/* webpackChunkName: "v-4ec95bbd" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":""} }],
 ]);
 
 if (import.meta.webpackHot) {

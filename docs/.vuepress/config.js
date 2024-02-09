@@ -6,6 +6,7 @@ import { defineUserConfig } from 'vuepress'
 export default defineUserConfig({
   bundler: viteBundler(),
   theme: defaultTheme({
+
     navbar: [
       // NavbarItem
       {
