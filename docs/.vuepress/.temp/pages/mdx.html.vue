@@ -164,6 +164,65 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 </li>
 </ol>
 <p>这样，你可以根据你的需求配置 Markdown-it 和 Shikiji 的选项，以满足特定的 Markdown 解析和代码块高亮需求。</p>
+<h2 id="双-三冒号标记语法" tabindex="-1"><a class="header-anchor" href="#双-三冒号标记语法"><span>双/三冒号标记语法</span></a></h2>
+<p>这样的语法看起来像是来自于一种标记语言，通常用于文档、博客或特定的内容管理系统中，比如用于静态网站生成器（如 VuePress、Docusaurus 等）或 Markdown 的扩展功能。</p>
+<p>这种语法使用了类似于双冒号和三个冒号的结构，以指示不同类型的提示或警告。在这个例子中：</p>
+<ul>
+<li><code v-pre>:::tip</code> 和 <code v-pre>:::</code> 之间的部分可能代表一个提示框或建议，提供了一些关于使用特定功能的提示或建议。</li>
+<li>同样，<code v-pre>:::danger</code> 和 <code v-pre>:::</code> 之间的部分可能表示一个警告框，提醒用户某个行为或操作可能带来的危险或风险。</li>
+</ul>
+<p>这样的语句通常用于标记文档的不同部分，以便在渲染时以特定的样式或格式进行显示。例如，在静态网站生成器中，这种语法可能会将内容渲染成带有特定样式的提示框，让读者能够更容易地识别和理解文档中的提示、警告或重要信息。</p>
+<p>在文件中使用这种语法通常是在标记文档的特定部分，以便在生成静态页面或文档时能够呈现为带有样式或特定样式的提示框，增强文档的可读性和易用性。</p>
+<h2 id="md中多种格式和标记来" tabindex="-1"><a class="header-anchor" href="#md中多种格式和标记来"><span>md中多种格式和标记来</span></a></h2>
+<p>一些常见的格式包括：</p>
+<ol>
+<li>
+<p><strong>标题</strong>：</p>
+<div class="language-markdown line-numbers-mode" data-ext="md" data-title="md"><pre v-pre class="language-markdown"><code><span class="token title important"><span class="token punctuation">#</span> 标题1</span>
+<span class="token title important"><span class="token punctuation">##</span> 标题2</span>
+<span class="token title important"><span class="token punctuation">###</span> 标题3</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>粗体和斜体</strong>：</p>
+<div class="language-markdown line-numbers-mode" data-ext="md" data-title="md"><pre v-pre class="language-markdown"><code><span class="token bold"><span class="token punctuation">**</span><span class="token content">粗体文字</span><span class="token punctuation">**</span></span>
+<span class="token italic"><span class="token punctuation">*</span><span class="token content">斜体文字</span><span class="token punctuation">*</span></span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>列表</strong>：</p>
+<div class="language-markdown line-numbers-mode" data-ext="md" data-title="md"><pre v-pre class="language-markdown"><code><span class="token list punctuation">-</span> 无序列表项1
+<span class="token list punctuation">-</span> 无序列表项2
+<span class="token list punctuation">1.</span> 有序列表项1
+<span class="token list punctuation">2.</span> 有序列表项2
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>链接</strong>：</p>
+<div class="language-markdown line-numbers-mode" data-ext="md" data-title="md"><pre v-pre class="language-markdown"><code><span class="token url">[<span class="token content">链接文本</span>](<span class="token url">URL</span>)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>图片</strong>：</p>
+<div class="language-markdown line-numbers-mode" data-ext="md" data-title="md"><pre v-pre class="language-markdown"><code><span class="token url"><span class="token operator">!</span>[<span class="token content">替代文本</span>](<span class="token url">图片链接</span>)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>引用</strong>：</p>
+<div class="language-markdown line-numbers-mode" data-ext="md" data-title="md"><pre v-pre class="language-markdown"><code><span class="token blockquote punctuation">></span> 引用的文本
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>水平线</strong>：</p>
+<div class="language-markdown line-numbers-mode" data-ext="md" data-title="md"><pre v-pre class="language-markdown"><code><span class="token hr punctuation">---</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>代码块</strong>：</p>
+<div class="language-markdown line-numbers-mode" data-ext="md" data-title="md"><pre v-pre class="language-markdown"><code>```语言
+代码内容
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>
+<p><strong>表格</strong>：</p>
+<div class="language-markdown line-numbers-mode" data-ext="md" data-title="md"><pre v-pre class="language-markdown"><code><span class="token table"><span class="token table-header-row"><span class="token punctuation">|</span><span class="token table-header important"> 表头1 </span><span class="token punctuation">|</span><span class="token table-header important"> 表头2 </span><span class="token punctuation">|</span>
+</span><span class="token table-line"><span class="token punctuation">|</span> <span class="token punctuation">-----</span> <span class="token punctuation">|</span> <span class="token punctuation">-----</span> <span class="token punctuation">|</span>
+</span><span class="token table-data-rows"><span class="token punctuation">|</span><span class="token table-data"> 单元格1 </span><span class="token punctuation">|</span><span class="token table-data"> 单元格2 </span><span class="token punctuation">|</span>
+</span></span></code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+</ol>
+<p>这些是 Markdown 常用的格式，Markdown 还有很多其他格式和标记，可以根据需求来使用。Markdown 的简单语法使得写作更加直观和便捷，适用于各种场景，如撰写文档、博客、评论等。</p>
 </div></template>
 
 

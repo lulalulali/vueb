@@ -7,6 +7,16 @@ export default defineUserConfig({
   bundler: viteBundler(),
   theme: defaultTheme({
 
+  //   pics: [
+  //     {
+  //         img: 'cartoon.jpg',
+  //         color: 'rgba(92, 101, 124, 0.1)'
+  //     },
+  //     {
+  //         img: 'whale.jpg',
+  //         color: 'rgba(92, 101, 124, 0.1)'
+  //     }
+  // ],
     navbar: [
       // NavbarItem
       {
@@ -16,6 +26,7 @@ export default defineUserConfig({
       {
         text: 'Task',
         link: '/task.md',
+     
       },
       {
         text: 'Git',
