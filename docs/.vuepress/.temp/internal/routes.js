@@ -5,6 +5,7 @@ export const routes = Object.fromEntries([
   ["/domain.html", { loader: () => import(/* webpackChunkName: "v-7d9944df" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/domain.html.js"), meta: {"title":"域名"} }],
   ["/expressNote.html", { loader: () => import(/* webpackChunkName: "v-1ae5868d" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/expressNote.html.js"), meta: {"title":"express"} }],
   ["/git.html", { loader: () => import(/* webpackChunkName: "v-c33e0b86" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/git.html.js"), meta: {"title":"git相关"} }],
+  ["/html.html", { loader: () => import(/* webpackChunkName: "v-2cf9d4d8" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/html.html.js"), meta: {"title":"html"} }],
   ["/mdx.html", { loader: () => import(/* webpackChunkName: "v-0bfc41ae" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/mdx.html.js"), meta: {"title":"how mdx"} }],
   ["/nextError.html", { loader: () => import(/* webpackChunkName: "v-279726cc" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/nextError.html.js"), meta: {"title":"error"} }],
   ["/nextLearn.html", { loader: () => import(/* webpackChunkName: "v-76af9444" */"C:/Users/lz185/Desktop/vueb/docs/.vuepress/.temp/pages/nextLearn.html.js"), meta: {"title":"自己的一点总结"} }],

@@ -46,16 +46,24 @@ export default defineUserConfig({
       },
     ],
     sidebar: [
+      { text: 'Frontend' },
       {
-        text: 'Frontend',
-        link: '',
-        children: [
+         text: 'Mdn',
+         collapsible:true,
+          children: [
           {
-            text: '',
-            link: '',
-            children: [],
+            text: 'html',
+            link: '/html.md',
+          },
+          {
+            text: 'css',
+            link: '/css.md',
+          },
+          {
+            text: 'js',
+            link: '/js.md',
           }
-        ],
+        ]
       },
       { text: 'Backend' },
       {
