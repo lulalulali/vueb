@@ -29,8 +29,27 @@ express.route  先在另一个js中创建route模块，然后在appjs中用app.u
 有validatecookies中间件函数 ：外部异步服务来验证 try catch模式
 可配置的中间件:弄一个middleware.js来，写接受选择对象或其他参数的函数；然后app.use(mw({ option1: '1', option2: '2' }))来使用中间件。</p>
 <h2 id="使用中间件" tabindex="-1"><a class="header-anchor" href="#使用中间件"><span>使用中间件</span></a></h2>
-<p>没挂路径，即use后括号没有路径
-挂在在路径上就是特定路径才启用</p>
+<p>中间件是干嘛的?是在到达路由之前或之后运行的函数
+路由处理器?是指定的路由被匹配时执行的函数
+应用级：
+绑定到app object
+没挂路径，即use后括号没有路径
+挂在在路径上就是特定路径才启用
+使用 next('route') 传给下一个路由，一般会用if条件句判断一下
+路由器级：就是route.get
+绑定到 express.Router()
+错误处理中间件：
+就是(err, req, res, next)
+内置中间件：
+express.static或者e.json或urlencode
+第三方中间件：
+要先装$ npm install cookie-parser 然后是定义变量const cookieParser = require('cookie-parser')然后用起来app.use(cookieParser())</p>
+<h2 id="覆盖expressapi" tabindex="-1"><a class="header-anchor" href="#覆盖expressapi"><span>覆盖expressAPI</span></a></h2>
+<p>两个扩展点:express.request 和 express.response  与   app.request 和 app.response 。分别是特定原型和全局原型
+什么叫状态码?statuscode 200表示ok 404表示未找到 500表示错误 内容类型分文本\图像\json数据 消息即主体内容
+方法:引擎设计.通过自己写覆盖现有的status,包括签名和行为
+属性:性能调整 分配的和定义的 分配的无法覆盖
+原型:新的轮胎 建议仅在应用程序级执行该操作</p>
 <p>1是上线不了 没弄了 2是有些文档不是按添加代码达到一整个项目这样的思路设计的，我如何正确添加，尤其是涉及到js的核心的内容</p>
 </div></template>
 
