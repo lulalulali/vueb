@@ -48,7 +48,7 @@ express.route  先在另一个js中创建route模块，然后在appjs中用app.u
 路由器级：就是route.get
 绑定到 express.Router()
 错误处理中间件：
-就是(err, req, res, next) 
+就是(err, req, res, next)
 内置中间件：
 express.static或者e.json或urlencode
 第三方中间件：
